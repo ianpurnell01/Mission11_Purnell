@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Razor.TagHelpers;
 using Mission11_Purnell.Controllers.ViewModels;
 namespace Mission11_Purnell.Infrastructure
 {
+    // This is to create the tag helper that will allow us to paginate with ease
     [HtmlTargetElement("div", Attributes = "page-model")]
     public class PaginationTagHelper : TagHelper
     {

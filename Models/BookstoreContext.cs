@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Mission11_Purnell.Models;
 
+// scaffolding created this context file
 public partial class BookstoreContext : DbContext
 {
     public BookstoreContext()

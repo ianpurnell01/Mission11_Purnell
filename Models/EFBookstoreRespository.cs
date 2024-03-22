@@ -1,6 +1,7 @@
 ﻿
 namespace Mission11_Purnell.Models
 {
+    // inherit from IBookstoreRepository
     public class EFBookstoreRespository: IBookstoreRepository
     {
         private BookstoreContext _context;

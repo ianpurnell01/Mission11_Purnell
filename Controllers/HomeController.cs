@@ -7,6 +7,7 @@ namespace Mission11_Purnell.Controllers
 {
     public class HomeController : Controller
     {
+        // follow repository pattern
         private IBookstoreRepository _repo;
 
         public HomeController(IBookstoreRepository repo)
@@ -18,6 +19,7 @@ namespace Mission11_Purnell.Controllers
         {
             int pageSize = 10;
 
+            // pass book data into the view
             var bookvar = new BookListViewModel
             {
                 Books = _repo.Books

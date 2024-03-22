@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 namespace Mission11_Purnell.Models;
 
+// scaffolding created this file
 public partial class Book
 {
     public int BookId { get; set; }
