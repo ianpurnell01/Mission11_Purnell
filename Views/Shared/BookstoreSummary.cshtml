@@ -1,0 +1,18 @@
+﻿@*
+    Compartmentalization for the pagination
+*@
+
+@model Book
+
+<div class="col-md-6 mb-4 card">
+    <div class="card-body">
+        <h3 class="card-title">@Model.Title <span class="badge rounded-pill bg-secondary text-white float-end">@Model.Classification / @Model.Category</span></h3>
+        <h4 class="card-subtitle mb-2 text-muted">Author: @Model.Author</h4>
+        <ul class="card-text">
+            <li>Publisher: @Model.Publisher</li>
+            <li>ISBN: @Model.Isbn</li>
+            <li>Page Count: @Model.PageCount</li>
+            <li>Price: $@Model.Price</li>
+        </ul>
+    </div>
+</div>
